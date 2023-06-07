@@ -1,0 +1,15 @@
+Code First:
+
+Desenvolvimento ágil: Com o Code First, você pode se concentrar principalmente no desenvolvimento da lógica do aplicativo, deixando a criação do banco de dados para uma fase posterior. Isso permite uma abordagem mais ágil e iterativa no desenvolvimento de software.
+Controle total sobre o esquema do banco de dados: Com o Code First, você tem controle total sobre a definição do esquema do banco de dados diretamente no código da aplicação. Isso oferece flexibilidade para modelar as entidades do banco de dados conforme necessário, sem depender de um esquema existente.
+Facilidade na migração de esquema: Com o Code First, é mais fácil e conveniente migrar o esquema do banco de dados ao longo do tempo, à medida que a aplicação evolui. As migrações podem ser realizadas automaticamente com base nas alterações no código da aplicação, simplificando o processo de atualização do esquema do banco de dados.
+--------------------------------------------------------------------------------------------------------------------------
+
+Database First:
+
+Uso de um esquema de banco de dados existente: Com o Database First, você pode conectar sua aplicação a um banco de dados existente, aproveitando um esquema de banco de dados já definido. Isso pode ser útil quando você deseja integrar sua aplicação a um sistema já em uso ou quando precisa trabalhar com um banco de dados legado.
+Geração automática de código de entidades: Com o Database First, é possível gerar automaticamente classes de entidades com base na estrutura do banco de dados. Isso pode acelerar o desenvolvimento, evitando a necessidade de escrever manualmente classes de entidades para cada tabela no banco de dados.
+Maior compatibilidade com ferramentas de modelagem visual: O Database First é geralmente mais compatível com ferramentas de modelagem visual, permitindo que você visualize e projete o esquema do banco de dados de forma gráfica. Isso pode facilitar a compreensão e a colaboração no design do banco de dados.
+
+
+Em resumo, o Code First é vantajoso para o desenvolvimento ágil e controle total sobre o esquema do banco de dados, enquanto o Database First é útil para aproveitar um esquema de banco de dados existente e facilitar a geração automática de código de entidades. A escolha entre eles depende das necessidades e requisitos específicos do projeto.
